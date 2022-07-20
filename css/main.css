@@ -241,6 +241,22 @@ article{
 .footer-nav ul li a{
   color: #999;
 }
+.footer-social{
+  margin: 30px 0;
+}
+.social-icon a{
+  color: #4A235A;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: 0.8s;
+}
+.social-icon a:hover{
+  background-color: #000;
+  color: #fff;
+}
 
 /* Responsive-Styles  */
 
@@ -250,6 +266,9 @@ article{
   h1{
     font-size: 30px;
     line-height: 40px;
+  }
+  .container{
+    width: 95%;
   }
   .hero-contents{
     grid-template-columns: repeat(1, 1fr);
@@ -300,12 +319,15 @@ article{
     font-size: 25px;
     line-height: 30px;
   }
+  .container{
+    width: 95%;
+  }
   .hero-content{
     text-align: center;
     padding: 40px 20px;
   }
   .hero-img{
-    padding: 20px 20px 0 0;
+    padding: 20px 40px 0 0;
   }
   .hero-img img{
     width: 105%;
@@ -347,6 +369,7 @@ article{
       font-size: 30px;
       line-height: 40px;
     }
+
     .anchor{
       grid-column: 1 / -1;
       height: 90px;
