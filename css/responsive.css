@@ -58,7 +58,7 @@
 }
   /* Medium Device*/
 
-@media only screen and (min-width: 577px) and (max-width:768px){
+@media only screen and (min-width: 577px) and (max-width:767px){
   h1{
     font-size: 20px;
     line-height: 30px;
@@ -114,7 +114,7 @@
   }
 }
 /* Large Devices  */
-@media only screen and (min-width: 769px) and (max-width:992px){
+@media only screen and (min-width: 768px) and (max-width:992px){
   h1{
     font-size: 30px;
     line-height: 40px;
