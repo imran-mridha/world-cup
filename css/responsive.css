@@ -1,0 +1,140 @@
+/* Responsive-Styles  */
+
+/* Mobile-Devices  */
+
+@media only screen and (min-width:320px) and (max-width: 767px) {
+  h1{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .container{
+    width: 95%;
+  }
+  .hero-contents{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hero-content{
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .hero-content p{
+    width: 200px;
+    overflow: hidden;
+    margin: 20px auto;
+  }
+  .short{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .hero-img{
+    padding: 0 20px;
+  }
+  .anchor{
+    grid-column: 1 / -1;
+    margin-bottom: 30px;
+  }
+  .blog{
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  article{
+    width: 100%;
+  }
+  article:nth-child(3){
+    margin-bottom: 0;
+  }
+  .footer-nav ul{
+    flex-direction: column;
+  }
+  .footer-nav ul li{
+    margin-right: 0px;
+  }
+}
+  /* Tablets - Small Screen*/
+
+@media only screen and (min-width: 768px) and (max-width:1024px){
+  h1{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .container{
+    width: 95%;
+  }
+  .hero-content{
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .hero-img{
+    padding: 20px 40px 0 0;
+  }
+  .hero-img img{
+    width: 105%;
+  } 
+  .anchor{
+    grid-column: 1 / -1;
+    height: 90px;
+    padding: 20px 0;
+    margin-bottom: 30px;
+  }
+  aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  aside button{
+    width: 30%;
+    align-items: center;
+  }
+  aside .gap{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  .blog{
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .tab{
+    display: none;
+  }
+  .blog-button{
+    display: block; 
+  }
+}
+  /* Desktop - Large Screen*/
+
+  @media only screen and (min-width: 1025px) and (max-width:1200px){
+    h1{
+      font-size: 30px;
+      line-height: 40px;
+    }
+
+    .anchor{
+      grid-column: 1 / -1;
+      height: 90px;
+      padding: 20px 0;
+      margin-bottom: 30px;
+    }
+    aside {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    aside button{
+      width: 30%;
+      align-items: center;
+    }
+    aside .gap{
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+    }
+    .blog{
+      grid-column: 1 / -1;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .tab{
+      display: none;
+    }
+   
+  }
